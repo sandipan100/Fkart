@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f5683d;
+	
+}
+#nav{
+	background: #021023;
+	width: 100%;
+	height: 50px;
+	line-height: 42px;
+}
+
+#nav h2{
+	float:left;
+
+}
+
+#nav h2 a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+#nav ul{
+	float: right;
+
+}
+
+#nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav ul li :hover{
+	background: #4853dc;
+	transition: 0.40%;
+	padding-bottom: 12px;
+}
+
+#hello{
+	background: #5127;
+	height: 42px;
+	margin-top: 5px;
+}
+
+#hello1{
+	background-color: red;
+	height: 5px;
+}
+
+.form-container{
+	width: 330px;
+	height: auto;
+	padding: 30px 40px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #000;
+	margin: auto;
+	position: relative;
+	top: 90px;
+	padding-top: 40px;
+	background: rgba(0,0,0,.5);
+}
+.user-img{
+	background: url(user.png) no-repeat;
+	width: 75px;
+	height: 75px;
+	background-size: 100%;
+	position: absolute;
+	top: -55px;
+	left: 125px;
+	border-radius: 50px;
+}
+
+ul.list{
+	list-style: none;
+	text-align: center;
+}
+ul.list li{
+	width: 250px;
+	margin-bottom: 15px;
+}
+ul.list li input{
+	width: 250px;
+	text-align: center;
+	padding: 9px 0px;
+	border: none;
+	background-color: #d3d3d3;
+	border-radius: 5px;
+}
+ul.list li button[type="submit"]{
+	background-color: none;
+	color: auto;
+	border-radius: 20px;
+	width: 140px;
+}
+ul.list li:nth-child(1){
+	font-family: 'Merriweather', serif;
+	padding-bottom: 2px;
+	color: grey;
+}
+ul.list li:nth-child(5) a{
+	text-decoration: none;
+	color: red;
+}
+ul.list li:nth-child(6){
+	color: black;
+}
